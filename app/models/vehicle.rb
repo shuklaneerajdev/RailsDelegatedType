@@ -1,3 +1,3 @@
 class Vehicle < ApplicationRecord
-  belongs_to :vehicleable, polymorphic: true
+  delegated_type :vehicleable, types: %w[Bike Car]
 end
