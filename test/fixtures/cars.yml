@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  wheel_drive: MyString
+  ground_clearence: 1
+
+two:
+  wheel_drive: MyString
+  ground_clearence: 1
